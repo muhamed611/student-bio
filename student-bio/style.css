@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+
+    background: #f7f6f2;
+
+    padding: 50px;
+
+    color: #222;
+
+}
+
+.hero {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 60px;
+
+    margin-bottom: 90px;
+
+}
+
+.profile img {
+
+    width: 240px;
+
+    height: 240px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 7px solid #355b3e;
+
+}
+
+.intro h1 {
+
+    font-size: 70px;
+
+    color: #355b3e;
+
+}
+
+.about {
+
+    margin: 20px 0;
+
+    font-size: 18px;
+
+}
+
+.quote {
+
+    font-style: italic;
+
+    color: #666;
+
+}
+
+h2 {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+    font-size: 42px;
+
+    color: #355b3e;
+
+}
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 30px;
+
+    margin-bottom: 90px;
+
+}
+
+.card {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, .1);
+
+    transition: .4s;
+
+    cursor: pointer;
+
+}
+
+.card:hover {
+
+    transform:
+        translateY(-15px) scale(1.04);
+
+}
+
+.card img {
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+
+}
+
+.card h3 {
+
+    margin-top: 15px;
+
+}
+
+.card p {
+
+    margin-top: 10px;
+
+    color: #777;
+
+}
+
+.contact {
+
+    text-align: center;
+
+    padding: 40px;
+
+    background: white;
+
+    border-radius: 25px;
+
+}
+
+.contact a {
+
+    color: #355b3e;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
